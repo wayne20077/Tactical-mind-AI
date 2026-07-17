@@ -1,0 +1,31 @@
+.control-panel {
+  display: flex;
+  gap: 12px;
+  padding: 12px 16px;
+  background-color: #1a1a1a;
+  border-radius: 6px;
+  border: 1px solid #333333;
+}
+
+.control-button {
+  padding: 10px 16px;
+  background-color: #ffd700;
+  color: #000000;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.control-button:hover {
+  background-color: #ffed4e;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 215, 0, 0.3);
+}
+
+.control-button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 6px rgba(255, 215, 0, 0.2);
+}
